@@ -1,5 +1,5 @@
 # active-directory-lab
-Built a Windows Server 2022 Active Directory environment with domain controller in Hyper-V, client machine, and Group Policy configuration.
+Built a Windows Server 2022 Active Directory environment with centralized identity management, role-based access control, and Group Policy enforcement.
 
 ## Environment
 - Windows Server 2022 (Domain Controller - DC01)
@@ -7,14 +7,14 @@ Built a Windows Server 2022 Active Directory environment with domain controller 
 - Hyper-V Virtualization
 - Domain: tgarr.local
 
-- ## Objectives
+## Objectives
 - Deploy Active Directory Domain Services (AD DS)
 - Configure a Domain Controller
 - Implement user and group management
 - Apply Group Policy for security control
 - Join client machine to domain
 
-- ## Steps Performed
+## Steps Performed
 1. Installed Windows Server 2022 on DC01
 2. Configured static IP and DNS
 3. Installed AD DS role
@@ -26,7 +26,7 @@ Built a Windows Server 2022 Active Directory environment with domain controller 
 9. Joined Windows 10 client (PC01) to domain
 10. Verified authentication and policy application
 
-11. ## Screenshots
+## Screenshots
 ![Domain Setup](screenshots/domain-setup.png)
 ![Users and Groups](screenshots/users-groups.png)
 ![Security Groups](screenshots/security-groups.png)
@@ -44,4 +44,11 @@ Built a Windows Server 2022 Active Directory environment with domain controller 
 - Active Directory Configuration
 - Network Configuration (DNS, Domain Join)
 - Troubleshooting and System Deployment
+
+## Security Hardening Considerations
+- Enforced Group Policy to control user permissions and system behavior
+- Implemented role-based access using security groups
+- Applied least privilege principles to limit user access
+- Configured centralized authentication through Active Directory
+- Reduced attack surface by controlling access to shared resources
 
