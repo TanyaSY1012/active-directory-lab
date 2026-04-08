@@ -27,7 +27,11 @@ Built a Windows Server 2022 Active Directory environment with domain controller 
 10. Verified authentication and policy application
 
 11. ## Screenshots
-
+![Domain Setup](screenshots/domain-setup.png)
+![Users and Groups](screenshots/users-groups.png)
+![Security Groups](screenshots/security-groups.png)
+![Shared Directories](screenshots/shared-directories.png)
+![Permissions](screenshots/permissions.png)
 
 ## Security Concepts Demonstrated
 - Identity and Access Management (IAM)
